@@ -1,0 +1,30 @@
+2022-05-21 22:49:31 pid:1 Error: Call to undefined function ends_with() in C:\Users\user\PhpstormProjects\untitled4\server\server.php:18
+Stack trace:
+#0 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Connection\TcpConnection.php(638): {closure}()
+#1 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Events\Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#2 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(2435): Workerman\Events\Select->loop()
+#3 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(1430): Workerman\Worker->run()
+#4 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(1373): Workerman\Worker::forkWorkersForWindows()
+#5 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(549): Workerman\Worker::forkWorkers()
+#6 C:\Users\user\PhpstormProjects\untitled4\server\server.php(33): Workerman\Worker::runAll()
+#7 {main}
+2022-05-21 23:02:41 pid:1 Error: Call to a member function get() on string in C:\Users\user\PhpstormProjects\untitled4\server\server.php:18
+Stack trace:
+#0 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Connection\TcpConnection.php(638): {closure}()
+#1 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Events\Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#2 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(2435): Workerman\Events\Select->loop()
+#3 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(1430): Workerman\Worker->run()
+#4 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(1373): Workerman\Worker::forkWorkersForWindows()
+#5 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(549): Workerman\Worker::forkWorkers()
+#6 C:\Users\user\PhpstormProjects\untitled4\server\server.php(35): Workerman\Worker::runAll()
+#7 {main}
+2022-05-21 23:05:12 pid:1 Error: Call to undefined function decode() in C:\Users\user\PhpstormProjects\untitled4\server\server.php:17
+Stack trace:
+#0 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Connection\TcpConnection.php(638): {closure}()
+#1 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Events\Select.php(295): Workerman\Connection\TcpConnection->baseRead()
+#2 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(2435): Workerman\Events\Select->loop()
+#3 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(1430): Workerman\Worker->run()
+#4 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(1373): Workerman\Worker::forkWorkersForWindows()
+#5 C:\Users\user\PhpstormProjects\untitled4\vendor\workerman\workerman\Worker.php(549): Workerman\Worker::forkWorkers()
+#6 C:\Users\user\PhpstormProjects\untitled4\server\server.php(36): Workerman\Worker::runAll()
+#7 {main}

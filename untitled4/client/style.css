@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Kaushan Script', cursive;
+}
+
+body {
+    background: linear-gradient( 45deg, hsla(237, 64%, 56%, 1) 0%, hsla(291, 41%, 49%, 1) 50%, hsla(334, 81%, 60%, 1) 100% );
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.header h1 {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 35px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 100px;
+    margin: 2px;
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.btn:disabled {
+    background-color: Lavender;
+    color: black;
+    cursor: no-drop;
+}
+
+#story:disabled{
+    cursor: no-drop;
+    transform: none;
+    animation-play-state:paused;
+}
+
+.result {
+    text-align: center;
+    font-size: 18px;
+}
+
+.result, .reset {
+    text-align: center;
+}
+
+
+.button {
+    border: 1px solid black;
+    color: black;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    margin: 35px;
+
+    background-size:300%;
+    background-image:linear-gradient(45deg, #8A2387, #E94057, #F27121);
+    font-weight:bold;
+    animation:bg 1.5s infinite;
+    animation-play-state:paused;
+    transition:150ms ease-in-out;
+}
+
+.button:hover {
+    animation-play-state:running;
+    cursor:pointer;
+    transform:scale(1.1);
+}
+
+@keyframes bg {
+    0% {
+        background-position: 20% 50%;
+    }
+    50% {
+        background-position: 100% 70%;
+    }
+    100% {
+        background-position: 20% 50%;
+    }
+}
